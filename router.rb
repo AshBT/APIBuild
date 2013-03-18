@@ -1,7 +1,6 @@
 # Access parameters passed into the app by using ARGV
 
 require "json"
-
 require_relative "html_generator"
 
 if ARGV.empty?
@@ -9,7 +8,6 @@ if ARGV.empty?
 else
   generator = HtmlGenerator.new
   if ARGV[0] == "index"
-    puts "Action: index"
     generator.index
   elsif ARGV[0] == "show"
     generator.show
