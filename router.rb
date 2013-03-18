@@ -10,7 +10,8 @@ else
   if ARGV[0] == "index"
     generator.index
   elsif ARGV[0] == "show"
-    generator.show
+    id = ARGV[1]
+    generator.show(id)
   else 
     puts "unrecognized action"
 

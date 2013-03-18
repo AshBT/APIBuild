@@ -1,0 +1,11 @@
+img {float:left;}
+
+div {float: left; height: 200px; padding: 10px; width: 300px}
+
+p.product_id {font-style: italic}
+p.price_in_cents {alignment-baseline: central}
+
+div:nth-child(even) {background-color: LightGray}
+
+div:nth-child(odd) {background-color: White}
+
