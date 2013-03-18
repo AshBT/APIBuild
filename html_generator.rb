@@ -1,14 +1,14 @@
 class HtmlGenerator
   
   def show
-    print_header
     puts "Action: Show"
+    print_header
     print_footer
   end
   
   def index
-    print_header
     puts "Action:  Index"
+    print_header
     print_footer
   end
   

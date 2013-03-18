@@ -1,11 +1,12 @@
 # Access parameters passed into the app by using ARGV
 
+require "json"
+
 require_relative "html_generator"
 
 if ARGV.empty?
-  puts "Usage: bla bla bla"
+  puts "Usage: no arguments passed"
 else
-  puts "you definitely passed some arguments"
   generator = HtmlGenerator.new
   if ARGV[0] == "index"
     puts "Action: index"
