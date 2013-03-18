@@ -9,6 +9,7 @@ else
   generator = HtmlGenerator.new
   if ARGV[0] == "index"
     puts "Action: index"
+    generator.index
   elsif ARGV[0] == "show"
     generator.show
   else 
